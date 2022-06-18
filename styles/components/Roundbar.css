@@ -1,0 +1,139 @@
+.roundbar-wrapper {
+  background-color: #84d2f8;
+  padding-bottom: 300px;
+}
+
+@media screen and (max-width: 1500px) {
+  .roundbar-wrapper {
+    padding-bottom: 300px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .roundbar-wrapper {
+    padding-bottom: 240px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .roundbar-wrapper {
+    padding-bottom: 120px;
+  }
+}
+
+.roundbar-wrapper .detail-content {
+  background-image: url("/Vector 50.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding-top: 40px;
+}
+
+.roundbar-wrapper .detail-content .title {
+  font-family: 'Luckiest Guy';
+  color: white;
+  font-size: 45px;
+  text-align: center;
+  -webkit-text-stroke: 3px #3B6253;
+}
+
+.roundbar-wrapper .detail-content .round-title {
+  font-family: 'Luckiest Guy';
+  color: rgb(255, 154, 93);
+  font-size: 30px;
+  text-align: center;
+  -webkit-text-stroke: 1px #3B6253;
+}
+
+.roundbar-wrapper .detail-content .subtitle {
+  font-family: 'Luckiest Guy';
+  color: #3B6253;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.roundbar-wrapper .detail-content .subtitle2 {
+  font-family: "Luckiest Guy";
+  font-style: normal;
+  font-size: 25px;
+  text-align: center;
+  color: rgb(255, 154, 93);
+}
+
+.roundbar-wrapper .detail-content .subtitle3 {
+  font-family: 'Luckiest Guy';
+  color: #3B6253;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 500px) {
+  .roundbar-wrapper .detail-content .title {
+    font-size: 30px;
+    -webkit-text-stroke: 1px #3B6253;
+  }
+
+  .roundbar-wrapper .detail-content .round-title {
+    font-size: 20px;
+  }
+
+  .roundbar-wrapper .detail-content .subtitle {
+    font-size: 13px;
+    line-height: 12px;
+  }
+
+  .roundbar-wrapper .detail-content .subtitle2 {
+    font-size: 10px;
+  }
+
+  .roundbar-wrapper .detail-content .subtitle3 {
+    font-size: 10px;
+  }
+}
+
+.text-blue {
+  color: #18A0FB !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.text-white {
+  color: white
+}
+
+.btn-view-tickets {
+  border-radius: 100px !important;
+  font-size: 21px !important;
+  padding: 0px 35px !important;
+}
+
+@media screen and (max-width: 500px) {
+  .btn-view-tickets {
+    font-size: 14px !important;
+  }
+}
+
+.winning-number-piece {
+  background: radial-gradient(71.62% 71.62% at 59.46% 21.62%, rgba(98, 187, 118, 0) 23.82%, rgba(98, 187, 118, 0.476) 64.02%, rgba(98, 187, 118, 0.5376) 79.19%, rgba(98, 187, 118, 0.448) 86.85%, rgba(98, 187, 118, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(60.36% 60.36% at 54.5% 37.39%, rgba(255, 255, 255, 0) 59.65%, rgba(255, 255, 255, 0.15) 74.25%, rgba(255, 255, 255, 0.15) 83.23%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(35.14% 35.14% at 64.86% 27.03%, rgba(255, 255, 255, 0.45) 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(39.19% 39.19% at 64.41% 30.18%, #8CE39F 0%, #62BB76 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  background-blend-mode: multiply, lighten, lighten, normal;
+  box-shadow: inset 3.2px -4.8px 25.6px rgba(0, 0, 0, 0.25);
+
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}

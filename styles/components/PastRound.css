@@ -1,0 +1,135 @@
+.pastround-wrapper {
+    background-color: #2a4079;
+    padding-bottom: 170px;
+}
+
+@media screen and (max-width: 1500px) {
+    .pastround-wrapper {
+        padding-bottom: 100px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .pastround-wrapper {
+        padding-bottom: 80px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .pastround-wrapper {
+        padding-bottom: 40px;
+    }
+}
+
+.pastround-wrapper .title {
+    font-family: 'cheee-jimbo';
+    color: #EAE7DF;
+    font-size: 80px;
+    text-align: center;
+    line-height: 105px;
+    letter-spacing: 0.03em;
+    -webkit-text-stroke: 3px black;
+}
+
+.pastround-wrapper .subtitle {
+    font-family: 'Luckiest Guy';
+    color: #EBE8E1;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.pastround-wrapper .subtitle1 {
+    font-family: 'Luckiest Guy';
+    color: #EA5556;
+    font-size: 60px;
+    text-align: center;
+    -webkit-text-stroke: 3px black;
+}
+
+.pastround-wrapper .subtitle2 {
+    font-family: 'Luckiest Guy';
+    color: #EAE8DF;
+    font-size: 40px;
+    text-align: center;
+    -webkit-text-stroke: 2px black;
+}
+
+.pastround-wrapper .subtitle3 {
+    font-family: 'Luckiest Guy';
+    color: #EAE8DF;
+    font-size: 20px;
+    text-align: center;
+    -webkit-text-stroke: 1px black;
+}
+
+.pastround-wrapper .subtitle4 {
+    font-family: "Luckiest Guy";
+    font-style: normal;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(255, 154, 93);
+}
+
+.pastround-wrapper .roundOption {
+    font-family: 'Luckiest Guy';
+    color: #EAE8DF;
+    font-size: 30px;
+    text-align: center;
+}
+
+.pastround-wrapper .roundOption.Mui-selected {
+    color: #EA5556;
+    font-size: 50px;
+    -webkit-text-stroke: 3px black;
+}
+
+.MuiPaper-rounded:before {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.MuiAccordionSummary-expandIconWrapper {
+    font-family: 'Luckiest Guy';
+    color: #EAE8DF !important;
+    -webkit-text-stroke: 2px black;
+}
+
+#panel1bh-header {
+    display: inline-flex
+}
+
+.red-button {
+    color: #FFF9F0 !important;
+    justify-content: center !important;
+    border: 1px solid black !important;
+    border-radius: 50% !important;
+    background-color: #EA5556 !important;
+    -webkit-text-stroke: 2px black !important;
+    font-size: 25px !important;
+    box-shadow: 0 0 0 4px #EA5556 !important;
+    padding: 0px 25px !important;
+}
+
+.blue-wallet-connect-button {
+    font-family: 'Luckiest Guy';
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFF9F0;
+    background: linear-gradient(90.17deg, #5E24D7 -0.99%, #5E36FF 57.83%);
+    border-radius: 21px;
+}
+
+@media screen and (max-width: 500px) {
+    .pastround-wrapper .title {
+        font-size: 55px;
+        line-height: 50px;
+    }
+
+    .pastround-wrapper .subtitle {
+        font-size: 15px !important;
+    }
+
+    .pastround-wrapper .subtitle4 {
+        font-size: 12px;
+    }
+}

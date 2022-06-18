@@ -1,0 +1,123 @@
+.pick-modal-body {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 510px;
+  max-width: 1200px;
+  background-color: white;
+  outline: none;
+  border-radius: 10px 10px 0px 0px;
+  /* box-shadow: 0px 4px 46px rgba(0, 0, 0, 0.15); */
+}
+
+.pick-modal-body .modalContent {
+  background: #FFF9F0;
+  position: relative;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.pick-modal-body .closeBtn {
+  position: absolute;
+  top: 14px;
+  right: 11px;
+  color: #fff9f0;
+}
+
+.pick-modal-body .modalTitle {
+  background: #3B6253;
+  line-height: 68px;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.text-blue {
+  color: #18A0FB !important;
+}
+
+.pick-modal-body .pick-modal-item {
+  margin-bottom: 50px;
+}
+
+.pick-modal-body .pick-modal-item p {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  font-family: 'Red Hat Display';
+  color: #282C3C;
+  margin-top: 1rem;
+}
+
+.pick-modal-body .pick-modal-item button {
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 41px;
+  color: #282C3C;
+  padding: 6px 0;
+  margin-top: 25px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 186px;
+}
+
+@media screen and (max-width: 899.98px) {
+  .pick-modal-body {
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    transform: none;
+    border-radius: 0;
+  }
+
+  .pick-modal-body .modalContent {
+    padding: 25px;
+  }
+
+  .pick-modal-body .closeBtn {
+    top: 25px;
+    right: 25px;
+  }
+
+  .pick-modal-body .modalTitle {
+    font-size: 24px;
+    line-height: 45px;
+  }
+
+  .pick-modal-body .contents {
+    overflow-y: auto;
+    max-height: calc(100vh - 120px);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .pick-modal-item button {
+    width: 100%;
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .pick-modal-item p {
+    font-size: 16px;
+    line-height: 21px;
+  }
+}
+
+.input-tickets::before {
+  border-bottom: 0px !important;
+}
+
+.input-tickets input {
+  font-family: 'Luckiest Guy';
+  font-size: 35px;
+  text-align: right;
+
+  color: #FFF9F0;
+}
+
+.input-tickets::after {
+  text-align: right;
+}

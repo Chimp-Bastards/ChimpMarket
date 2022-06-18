@@ -1,0 +1,15 @@
+.roadmap {
+  background-image: url('../../public/roadmap.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-color: #8CA7F4;
+  height: 80vw;
+  max-height: 1285px;
+}
+@media screen and (max-width: 899.98px) {
+  .roadmap {
+    background-image: url('../../public/roadmap-mobile.png');
+    height: 218vw;
+    max-height: 820px;
+  }
+}

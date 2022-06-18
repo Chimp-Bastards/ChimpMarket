@@ -1,0 +1,67 @@
+.evolutionType .typeBtn {
+  font-size: 22px;
+  line-height: 41px;
+  font-weight: normal;
+  color: #282C3C;
+  padding: 6px 90px;
+  margin-left: auto;
+  display: flex;
+  margin-right: auto;
+  text-transform: none;
+}
+.evolutionType .typeContent {
+  padding: 30px 50px;
+  background: rgba(255, 255, 255, 0.16);
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  backdrop-filter: blur(104px);
+  border-radius: 14px;
+  margin-top: 50px;
+}
+.evolutionType .typeContent p {
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: 'Red Hat Display';
+}
+.evolutionType .maxValue {
+  margin-top: 24px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 34px;
+  font-family: 'Luckiest Guy';
+}
+.evolutionType .maxValue span {
+  color: white;
+}
+.evolutionType .selected {
+  background-image: url('../../public/green-btn-bg.png') !important;
+  color: white;
+}
+@media screen and (max-width: 899px) {
+  .evolutionType .typeBtn {
+    font-size: 16px;
+    line-height: 30px;
+    padding: 6px 54px;
+  }
+  .evolutionType .typeContent {
+    padding: 15px;
+  }
+  .evolutionType .typeContent p {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .evolutionType .maxValue {
+    font-size: 14px;
+    line-height: 26px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .evolutionType .typeBtn {
+    width: 100%;
+  }
+}
+.evolutionType.disabled {
+  opacity: 0.5;
+}

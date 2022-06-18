@@ -1,0 +1,51 @@
+.ourTeamSection {
+  background-image: url('../../public/new-bg-1.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.ourTeamSection .member {
+  border: 1px solid #fff;
+  border-radius: 14px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.16);
+  backdrop-filter: blur(104px);
+}
+.ourTeamSection .member img {
+  width: 100%;
+  border-radius: 14px;
+}
+.ourTeamSection .member h3 {
+  color: #D73B5D;
+  font-size: 22px;
+  line-height: 41px;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-weight: normal;
+}
+.ourTeamSection .member p {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: Red Hat Display;
+}
+.ourTeamSection .footerText {
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  color: #fff;
+  margin-top: 60px;
+  margin-bottom: 50px !important;
+}
+@media screen and (max-width: 899.98px) {
+  .ourTeamSection {
+    background-size: auto 100%;
+    background-position: center;
+  }
+}
+@media screen and (max-width: 600px) {
+  .ourTeamSection .footerText {
+    margin-bottom: 25px !important;
+  }
+}

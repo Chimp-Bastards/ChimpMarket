@@ -1,0 +1,161 @@
+.sidebar-wrapper {
+  /* background-image: url("/bg_sidebar.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding-bottom: 330px; */
+}
+
+@media screen and (min-width: 2000px) {
+  .sidebar-wrapper {
+    padding-bottom: 340px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar-wrapper {
+    padding-bottom: 190px;
+  }
+}
+
+.sidebar-wrapper .title {
+  font-family: 'Luckiest Guy';
+  color: white;
+  font-size: 35px;
+  text-align: center;
+  -webkit-text-stroke: 2px #3B6253;
+  letter-spacing: 0.06em;
+  line-height: 100%;
+}
+
+.sidebar-wrapper .logo-part {
+  padding-top: 52px;
+  padding-left: 100px;
+}
+
+.sidebar-wrapper .logo-part img {
+  width: 184px; 
+  height: 160px;
+}
+
+.sidebar-wrapper .header-util {
+  text-align: right;
+  padding: 58px;
+}
+
+.btn-buy-ticket {
+  border-radius: 50px !important;
+  font-size: 35px !important;
+  border: 5px solid #3b6253 !important;
+  line-height: 100% !important;
+  background-color: #FFF9F0;
+}
+
+.sidebar-wrapper .header-menu-mobile {
+  display: none;
+}
+
+.not-mobile {
+  display: block;
+}
+
+@media screen and (max-width: 500px) {
+  .sidebar-wrapper .header-menu {
+    display: none !important
+  }
+
+  .sidebar-wrapper .logo-part {
+    padding: 17px;
+  }
+
+  .sidebar-wrapper .header-menu-mobile {
+    display: block;
+    padding: 0px;
+    text-align: right;
+  }
+
+  .not-mobile {
+    display: none;
+  }
+
+  .sidebar-wrapper .logo-part img {
+    width: 78px;
+    height: 68px;
+  }
+
+  .sidebar-wrapper .header-util {
+    text-align: center;
+  }
+
+  .btn-buy-ticket {
+    font-size: 20px !important;
+  }
+}
+
+.sidebar-wrapper .subtitle {
+  font-family: 'Luckiest Guy';
+  color: #3B6253;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.sidebar-wrapper .pot_title {
+  font-family: 'Luckiest Guy';
+  color: #FF9353;
+  font-size: 35px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  line-height: 115%;
+  text-shadow: 3px 3px #3B6253;
+}
+
+.sidebar-wrapper .prize {
+  font-family: 'Luckiest Guy';
+  color: #FF9353;
+  font-size: 80px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  line-height: 115%;
+  text-shadow: 3px 3px #3B6253;
+}
+
+@media screen and (max-width: 500px) {
+  .sidebar-wrapper .title {
+    font-size: 0px;
+    line-height: 100%;
+  }
+}
+
+.sidebar-wrapper .connectBtn {
+  /* color: white;
+  display: flex;
+  font-size: 22px;
+  padding: 11px 48px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 41px;*/
+  border-radius: 15px;
+  background-color: white; 
+  color: #3B6253;
+  font-size: 20px;
+  margin: 8px 10px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.background-white {
+  background-color: white !important;
+}
+
+.sidebar-wrapper .blue-wallet-connect-button {
+  font-family: 'Luckiest Guy';
+  font-weight: 400;
+  font-size: 20px;
+  color: #FFF9F0;
+  background: linear-gradient(90.17deg, #5E24D7 -0.99%, #5E36FF 57.83%);
+  border-radius: 15px;
+  margin: 8px 10px;
+}

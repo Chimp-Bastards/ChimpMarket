@@ -1,0 +1,21 @@
+.moreAbout {
+  /* background-image: url('../../public/about-bg.png'); */
+  background-image: url('../../public/new-bg-3.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding-bottom: 100px;
+}
+.contents {
+  width: 87.5vw;
+  max-width: 970px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 600px) {
+  .moreAbout {
+    /* background-image: url('../../public/about-bg-m.png'); */
+    background-position: center;
+    background-size: auto 100%;
+    padding-bottom: 50px;
+  }
+}

@@ -1,0 +1,78 @@
+.headerSection {
+  background-image: url('../public/new-bg-1.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding-top: 153px;
+  padding-bottom: 110px;
+}
+.headerSection .wellcomeTitle, .headerSection .redTitle {
+  font-size: 86px;
+  color: white;
+  line-height: 160px;
+}
+.headerSection .redTitle {
+  color: #D73B5D;
+}
+.headerSection .headerContents {
+  width: 87.5%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1400px;
+}
+.headerSection .headerRightImg {
+  width: 100%;
+  max-width: 628px;
+  margin: auto;
+  display: flex;
+}
+.headerSection .headerLeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.headerSection .evoleBtn {
+  width: fit-content;
+  color: white;
+  width: 200px;
+  height: 64px;
+  font-size: 22px;
+  margin-top: 50px;
+  text-transform: none;
+}
+@media screen and (max-width: 1200px) {
+  .headerSection .wellcomeTitle, .headerSection .redTitle {
+    font-size: 60px;
+    line-height: 100px;
+  }
+}
+@media screen and (max-width: 899.98px) {
+  .headerSection .headerLeft {
+    order: 1;
+    width: 100%;
+    display: block;
+  }
+  .headerSection .wellcomeTitle, .headerSection .redTitle {
+    font-size: 46px;
+    line-height: 86px;
+    text-align: center;
+  }
+  .headerSection .evoleBtn {
+    margin-left: auto;
+    display: flex;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 600px) {
+  .headerSection {
+    padding-top: 120px;
+    padding-bottom: 50px;
+    background-size: auto 100%;
+  }
+  .headerSection .evoleBtn {
+    width: 100%;
+    font-size: 1rem;
+    height: 50px;
+    margin-top: 50px;
+    background-image: url('../public/blue-btn-bg-m.png') !important;
+  }
+}

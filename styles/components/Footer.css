@@ -1,0 +1,75 @@
+.footer-wrapper {
+    background-color: #eae8df;
+}
+
+.footer-wrapper .title {
+    font-family: 'cheee-jimbo';
+    color: #FFF470;
+    font-size: 80px;
+    text-align: center;
+    -webkit-text-stroke: 5px #3B6253;
+}
+
+.footer-wrapper .match-example {
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 768px) {
+    .footer-wrapper .match-example {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .footer-wrapper .title {
+        font-size: 55px;
+    }
+}
+
+.footer-wrapper .funny-faq-title {
+    font-family: 'cheee-jimbo';
+    color: #FFF470;
+    font-size: 80px;
+    text-align: center;
+    -webkit-text-stroke: 3px #3B6253;
+}
+
+.footer-wrapper .criteria-title {
+    font-family: 'Luckiest Guy';
+    color: #FFF470;
+    font-size: 40px;
+    text-align: center;
+    -webkit-text-stroke: 3px #3B6253;
+    letter-spacing: 0.06em;
+    line-height: 45px;
+}
+
+.footer-wrapper .subtitle1 {
+    font-family: 'Luckiest Guy';
+    font-size: 30px;
+    text-align: center;
+    color: #3B6253;
+
+    -webkit-text-stroke: 1px #FFF470;
+}
+
+.footer-wrapper .subtitle2 {
+    font-family: 'Luckiest Guy';
+    font-size: 25px;
+    /* text-align: center; */
+    line-height: 25px;
+    color: #3B6253;
+    margin-bottom: 18px;
+}
+
+.footer-wrapper .subtitle3 {
+    font-family: 'Luckiest Guy';
+    color: #EAE8DF;
+    font-size: 20px;
+    text-align: center;
+    -webkit-text-stroke: 1px black;
+}
+
+.footer-wrapper .MuiTableCell-root {
+    border-bottom: 0px !important;
+}

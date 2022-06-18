@@ -1,0 +1,53 @@
+.samos-item .selectBtn {
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 41px;
+  color: #7f7a71;
+  padding: 6px 0;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 186px;
+}
+.samos-item .pick {
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.16);
+  border: 2px dashed #FFFFFF;
+  box-sizing: border-box;
+  backdrop-filter: blur(104px);
+  /* border-radius: 30px; */
+  cursor: pointer;
+  overflow: hidden;
+}
+.samos-item .samos-item-omega {
+  height: 260px;
+}
+.red-border {
+  border-color: red !important;
+}
+@media screen and (max-width: 899px) {
+  .samos-item .selectBtn {
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .samos-item .pick {
+    /* background-image: url('../../public/add.png'); */
+    height: 40vw;
+    border-radius: 14px;
+  }
+  .samos-item .samos-item-omega {
+    height: 260px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .samos-item .selectBtn {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .samos-item .pick {
+    height: 40vw;
+  }
+}

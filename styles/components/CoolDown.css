@@ -1,0 +1,122 @@
+.cooldown-section-wrapper {
+  /* background-image: url('../../public/new-bg-1.jpg'); */
+  /* background-size: 100% 100%; */
+  /* background-repeat: no-repeat; */
+  background: #1c1c1cc7;
+  border-radius: 5px;
+}
+.cooldown-section-wrapper .contents {
+  width: 87.5vw;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cooldown-section-wrapper .sectionTitle {
+  -webkit-text-stroke: 2px white;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 68px;
+  font-family: 'Luckiest Guy';
+}
+.cooldown-section-wrapper .cooldown-item {
+  margin-top: 50px;
+}
+.cooldown-section-wrapper .cooldown-item p {
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 41px;
+  font-family: 'Luckiest Guy';
+  color: white;
+}
+.cooldown-section-wrapper .cooldown-card {
+  background: rgba(255, 255, 255, 0.16);
+  /* border: 1px solid #FFFFFF; */
+  box-sizing: border-box;
+  backdrop-filter: blur(104px);
+  /* border-radius: 1000px; */
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 36px;
+  overflow: hidden;
+}
+.cooldown-section-wrapper .cooldown-card img {
+  width: 100%;
+}
+.cooldown-section-wrapper .addBtn {
+  /* font-style: normal;
+  font-weight: normal; */
+  font-size: 14px;
+  /* line-height: 41px; */
+  color: #FBFBFF;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  /* display: flex; */
+  width: 100%;
+  max-width: 300px;
+  /* padding: 6px 0; */
+}
+.cooldown-date {
+  background-image: url('../../public/mark.png');
+  width: 100%;
+  max-width: 236px;
+  height: 85px;
+  background-size: 100% 100%;
+  position: relative;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cooldown-date p {
+  font-family: Luckiest Guy !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-size: 22px !important;
+  line-height: 41px !important;
+  color: #282C3C !important;
+  margin-top: 0 !important;
+  position: absolute;
+  left: 50%;
+  top: 15px;
+  width: 100%;
+  text-align: center;
+  transform: translateX(-50%);
+}
+@media screen and (max-width: 899.98px) {
+  .cooldown-section-wrapper .addBtn {
+    font-size: 14px;
+    line-height: 26px;
+  }
+  .cooldown-section-wrapper .cooldown-card {
+    margin-bottom: 25px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .cooldown-section-wrapper {
+    padding-top: 50px;
+    /* background-size: auto 100%;
+    background-position: center;
+    background-image: url('../../public/new-bg-1.jpg'); */
+  }
+  .cooldown-section-wrapper .sectionTitle {
+    font-size: 24px;
+    line-height: 45px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-shadow: -3px 0 white, 0 3px white, 3px 0 white, 0 -3px white;
+    -webkit-text-stroke: unset;
+  }
+  .cooldown-section-wrapper .cooldown-item p {
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .cooldown-section-wrapper .cooldown-card {
+    margin-top: 1rem;
+  }
+  .cooldown-date {
+    height: 65px;
+  }
+  .cooldown-date p {
+    font-size: 14px;
+    line-height: 26px;
+  }
+}

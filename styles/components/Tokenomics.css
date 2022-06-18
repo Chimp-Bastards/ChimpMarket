@@ -1,0 +1,104 @@
+.token {
+  background-image: url('../../public/new-bg-2.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding-bottom: 100px;
+  position: relative;
+  background-color: #8CA7F4;
+}
+.token .valueWrapper {
+  height: 90px;
+  border-bottom: 1px solid #fff;
+}
+.token .titleWrapper {
+  height: 84px;
+}
+.token::before {
+  background-image: url('../../public/TOUCANS.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 306px;
+  width: 90vw;
+  left: 50%;
+  top: 100px;
+  transform: translateX(-50%);
+  content: '';
+  position: absolute;
+}
+.token h3 {
+  padding-top: 200px;
+  position: relative;
+  z-index: 2;
+  margin-bottom: 100px !important;
+}
+.tokenItem {
+  border: 1px solid #fff;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.16);
+  backdrop-filter: blur(104px);
+}
+.tokenItem h4 {
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 41px;
+  color: #D73B5D;
+}
+.tokenItem h5 {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 34px;
+  letter-spacing: 0.05em;
+  color: #282C3C;
+}
+.tokensList {
+  width: 87.5vw;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 899.98px) {
+  .token {
+    padding-bottom: 50px;
+  }
+  .token::before {
+    top: 0;
+    width: 100%;
+    height: 235px;
+    left: 0;
+    transform: none;
+    background-size: auto 100%;
+    background-position: center;
+  }
+  .token h3 {
+    padding-top: 50px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .token {
+    background-size: auto 100%;
+    background-position: center;
+  }
+  .token .valueWrapper {
+    height: 74px;
+  }
+  .token .titleWrapper {
+    height: 70px;
+  }
+  .token .tokenItem h4 {
+    font-size: 18px;
+    line-height: 34px;
+  }
+  .token .tokenItem h5 {
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .token::before {
+    display: none;
+  }
+}
+@media screen and (max-width: 320px) {
+  .tokenItem h5 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}

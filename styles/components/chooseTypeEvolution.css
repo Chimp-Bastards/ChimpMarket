@@ -1,0 +1,20 @@
+.choose-type-section-wrapper {
+  background: #1c1c1cc7;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 5px;
+}
+.choose-type-section-wrapper .changePadding {
+  padding-bottom: 170px;
+}
+@media screen and (max-width: 600px) {
+  .choose-type-section-wrapper {
+    padding-top: 50px;
+    padding-bottom: 15px;
+    background-position: center;
+    background-size: auto 100%;
+  }
+  .choose-type-section-wrapper .changePadding {
+    padding-bottom: 50px !important;
+  }
+}

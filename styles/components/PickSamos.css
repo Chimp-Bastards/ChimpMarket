@@ -1,0 +1,98 @@
+.pick-samos-wrapper {
+  /* background-image: url('../../public/new-bg-2.png'); */
+  /* background-repeat: no-repeat; */
+  /* background-size: 100% 100%; */
+  background: #1c1c1cc7;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-radius: 5px;
+}
+.pick-samos-wrapper .titleSection {
+  width: 87.5vw;
+  margin: auto;
+  margin-bottom: 50px;
+  max-width: 1400px;
+}
+.pick-samos-wrapper .titleSection h3 {
+  -webkit-text-stroke: 2px white;
+  font-size: 36px;
+  line-height: 68px;
+}
+.pick-samos-wrapper .alpha {
+  width: 87.5vw;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pick-samos-wrapper .omega {
+  width: 87.5vw;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pick-samos-wrapper .omegaGrid {
+  flex-basis: 20%;
+  max-width: 20%;
+}
+.pick-samos-wrapper .footer {
+  margin-top: 50px;
+  width: 87.5vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pick-samos-wrapper .footer p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
+  font-size: 18px;
+  line-height: 34px;
+  color: #282C3C;
+  font-weight: normal;
+  font-family: 'Luckiest Guy';
+}
+.pick-samos-wrapper .footer p img {
+  margin-right: 10px;
+}
+.pick-samos-wrapper .startBtn {
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 41px;
+  color: #FBFBFF;
+  padding: 3px 50px;
+}
+@media screen and (max-width: 900px) {
+  .pick-samos-wrapper .startBtn {
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .pick-samos-wrapper .omegaGrid {
+    flex-basis: calc(100% / 3);
+    max-width: calc(100% / 3);
+  }
+}
+@media screen and (max-width: 600px) {
+  .pick-samos-wrapper {
+    padding-top: 50px;
+    background-position: center;
+    background-size: auto 100%;
+  }
+  .pick-samos-wrapper .titleSection h3 {
+    font-size: 24px;
+    line-height: 45px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-shadow: -3px 0 white, 0 3px white, 3px 0 white, 0 -3px white;
+    -webkit-text-stroke: unset;
+  }
+  .pick-samos-wrapper .startBtn {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    /* background-image: url('../../public/blue-btn-bg-m.png') !important; */
+  }
+  .pick-samos-wrapper .omegaGrid {
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+}
