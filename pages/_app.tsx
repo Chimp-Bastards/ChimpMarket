@@ -17,8 +17,8 @@ const WalletConnectionProvider = dynamic(
 function MyApp({ Component, pageProps }: AppProps) {
   const pageUrl = "";
   const logoImg = "/icon.png";
-  const title = "Soul Dogs Raffle";
-  const description = "Welcome to Soul Dogs, a collection of 1111 Samoyeds living on the Solana Network. Our roadmap consists of weekly token airdrops, breeding, a DAO, and much more!";
+  const title = "Chimp Raffle";
+  const description = "Welcome to Chimp, a collection of 1111 Samoyeds living on the Solana Network. Our roadmap consists of weekly token airdrops, breeding, a DAO, and much more!";
 
   return (
     <>

@@ -72,7 +72,6 @@ const Sidebar: FC<Props> = (props) => {
 
   // const [timer, setTimer] = useState(1)
 
-
   // const [balances, setBalances] = useState({ solBalance: 0, boneBalance: 0 });
   // const connection = new anchor.web3.Connection(process.env.NEXT_PUBLIC_SOLANA_RPC_HOST!)
 

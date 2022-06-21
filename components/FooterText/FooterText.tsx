@@ -171,7 +171,7 @@ const FooterText: FC = () => {
             <Grid item sm={6} xs={12}>
               <Box sx={{ display: 'flex', flexDirection: 'column', pb: 5, px: 11 }} style={{ textAlign: 'center' }}>
                 <Typography className='criteria-title' style={{ fontSize: '25px', WebkitTextStroke: '2px #3B6253', marginBottom: '25px' }}>Ticket Purchases</Typography>
-                <Typography className='subtitle2' style={{ fontSize: '20px' }}>80% of the BONES paid by people buying tickets each round goes back into the prize pools while 20% gets "buried" and taken out of circulation to be return to the Soul Dogs City treasury.</Typography>
+                <Typography className='subtitle2' style={{ fontSize: '20px' }}>80% of the BONES paid by people buying tickets each round goes back into the prize pools while 20% gets "buried" and taken out of circulation to be return to the Chimp treasury.</Typography>
               </Box>
               <Box sx={{ display: 'flex', flexDirection: 'column', pb: 5, px: 11 }} style={{ textAlign: 'center' }}>
                 <Typography className='criteria-title' style={{ fontSize: '25px', WebkitTextStroke: '2px #3B6253', marginBottom: '25px' }}>High-value Solana NFTs</Typography>
