@@ -66,7 +66,7 @@ const Sidebar: FC<Props> = (props) => {
         setIsAdmin(false)
       }
     }
-    
+
     getAdmins()
   }, [publicKey]);
 
@@ -141,4 +141,3 @@ const Sidebar: FC<Props> = (props) => {
 }
 
 export default Sidebar
-
