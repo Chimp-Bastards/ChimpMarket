@@ -66,6 +66,7 @@ const Sidebar: FC<Props> = (props) => {
         setIsAdmin(false)
       }
     }
+    
     getAdmins()
   }, [publicKey]);
 
