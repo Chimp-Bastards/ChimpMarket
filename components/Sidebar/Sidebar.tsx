@@ -110,7 +110,7 @@ const Sidebar: FC<Props> = (props) => {
             )
           }
 
-          <Grid container spacing={5}>
+          <Grid container spacing={1}>
             {
               raffles.map((elem: any, idx: any) => (
                 <Grid item xs={6} sm={3} md={3} key={idx}>

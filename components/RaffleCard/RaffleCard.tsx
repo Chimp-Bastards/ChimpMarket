@@ -52,7 +52,7 @@ const RaffleCard: FC<Props> = (props) => {
           </Box>
         )
       }
-      <Box>
+      <Box style={{ textAlign: 'center' }}>
         {
           !raffle.raffles[0].isEnd ? (
             <>
