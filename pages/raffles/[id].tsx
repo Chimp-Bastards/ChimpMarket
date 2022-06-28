@@ -217,10 +217,10 @@ const RaffleDetail: NextPage = () => {
                     <Box style={{ width: '50%', margin: 'auto' }}>
                       <Typography variant="h5">{raffle.name}</Typography>
                       <Grid container spacing={2}>
-                        <Grid item xs={5}>
+                        <Grid item xs={6}>
                           <LazyLoadImage src={raffle.imageUrl} width="100%" />
                         </Grid>
-                        <Grid item xs={7}>
+                        <Grid item xs={6}>
                           <Box
                             sx={{
                               display: 'flex',
