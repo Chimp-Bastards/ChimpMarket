@@ -18,23 +18,21 @@ const Raffle: NextPage = () => {
         </div>
       }
       <Layout>
-        <Box>
-          <Header/>
-          <Sidebar
-            // nextRound={nextRound}
-            // tokenPrice={tokenPrice}
-            setLoading={setLoading}
-          // getPastRound={(number: any) => {
-          //   getPastRound(number)
-          // }}
-          // getNextRound={() => {
-          //   getNextRound()
-          // }}
-          // additionalPrize={additionalPrize}
-          // nextTickets={nextTickets}
-          // setNextTickets={setNextTickets}
-          />
-        </Box>
+        <Header />
+        <Sidebar
+          // nextRound={nextRound}
+          // tokenPrice={tokenPrice}
+          setLoading={setLoading}
+        // getPastRound={(number: any) => {
+        //   getPastRound(number)
+        // }}
+        // getNextRound={() => {
+        //   getNextRound()
+        // }}
+        // additionalPrize={additionalPrize}
+        // nextTickets={nextTickets}
+        // setNextTickets={setNextTickets}
+        />
       </Layout>
     </>
   )
